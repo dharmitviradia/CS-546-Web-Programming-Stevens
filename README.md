@@ -1,2 +1,2 @@
-# CS-546-WebProgramming-1-Dharmit
- CS 546 Web Programming-1 Stevens
+# CS-546-WebProgramming-Dharmit
+ CS 546 Web Programming Stevens
