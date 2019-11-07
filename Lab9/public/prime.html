@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Prime Number Checker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../public/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/public/prime.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Prime Number Checker</h1>
+            <p>Enter the Number to Check if the Number is Prime or Non-Prime</p>
+        </header>
+        <main>
+            <form>
+                <label for="num">Enter the Number:
+                    <input type = "number" name = "value" id = "num" placeholder="Enter Number Here">
+                </label>
+                <button class="btn-prime" id = "btn" type="submit">
+                    Check
+                </button>
+            </form>  
+            <ol id="attempts" class="list"></ol>    
+        </main>
+        <footer>
+            <h1>Dharmit Viradia</h1>
+            <h2>10450000</h2>
+            <p>This is CS 546 Web Programming Lab</p>
+        </footer>
+    </body>
+</html>

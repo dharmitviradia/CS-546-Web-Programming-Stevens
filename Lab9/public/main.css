@@ -1,0 +1,88 @@
+*{
+  text-align: center;
+  }
+    
+  body {
+  color: black;
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+  font-size: 15pt;
+  }
+  
+  
+  header {
+  color:black;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  position:absolute; 
+  top:0px; 
+  left:0px; 
+  right:0px;
+  overflow:hidden;
+  }
+   
+  main{
+  position:absolute; 
+  top:150px; 
+  bottom:200px; 
+  left:0px; 
+  right:0px; 
+  overflow:auto;
+  }
+  
+  footer{
+  color: black;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  position:absolute; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden;
+  }
+  
+  h1, h2 {
+  color:black;
+  margin-bottom: 5px;
+  }
+  
+  h1 {
+  font-size: 1.5rem;
+  line-height: 2
+  }
+  
+  h2 {
+  font-size: 1.2rem;
+  line-height: 2
+  }
+  
+  
+  p {
+  color: black;
+  font-size: 1rem;
+  line-height: 2;
+  }
+  
+  .is-prime{
+  color: #00E676;
+  }
+  
+  .not-prime{
+  color: #FF3D00;
+  }
+  
+  .btn-prime{
+  display: inline-block;
+  font-weight: 150;
+  line-height: 1.5;
+  color: white;
+  border-color: black;
+  background-color: #538fbe;
+  border: 1px solid #2d6898;
+  border-radius: 25px;
+  }
+  
+  .list { 
+  list-style-position:inside;
+  }
+  
+  

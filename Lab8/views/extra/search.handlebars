@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>People Found</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/public/site.css">
+    </head>
+    <body>
+      <h1>People Found</h1>
+        {{#if people}}
+        <main>
+            <ul>
+                {{#each people}}  
+                <li>
+                  <a href="/details/{{id}}">{{firstName}} {{lastName}}</a>
+                  <a> </a>
+                </li>
+                {{/each}}
+            </ul>
+            {{else}}
+            <p class="not-found">We're sorry, but no results were found for {{ name }}.</p>
+        {{/if}}
+        <a href ='/static/people.html'>Make another search</a>
+        </main>
+  </body>
+</html>
