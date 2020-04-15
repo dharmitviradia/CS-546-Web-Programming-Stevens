@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Page</title>
+</head>
+<body>
+  <header>
+    <h2>Login Page</h2>
+  </header>
+    <article>
+        <h3>Login to view your Details</h3>
+      <form id="login-form" method="POST" action="/login">
+          <label>Username:</label>
+          <input id="username" name="username" type="text">
+          <label>Password:</label>
+          <input id="password" name="password" type="password">
+          <button class="btn-black" type="submit" id="submit">Submit</button>
+      </form>
+
+      {{#if error}}
+      <div id="login-error" class="error">
+        <a>Error: {{ error }}</a>
+      </div>
+      {{/if}}
+    </article>
+</body>
+</html>
